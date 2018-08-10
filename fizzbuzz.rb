@@ -4,7 +4,7 @@
 
 def fizzbuzz(int)
   if int % 3 == 0 # if the number int is divisible by 3
-    "FizzBuzz"
+    "Fizz"
   elsif int % 5 == 0
     "Buzz"
   elsif int % 15 == 0
