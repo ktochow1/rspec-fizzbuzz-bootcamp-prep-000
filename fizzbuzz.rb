@@ -3,12 +3,12 @@
 
 
 def fizzbuzz(int)
-  if int % 3 == 0 # if the number int is divisible by 3
-    return "Fizz"
-  elsif int % 5 == 0 
-    return "Buzz"
-  elsif int % 15 == 0
+  if int % 15 == 0
     return "FizzBuzz"
+  elsif int % 5 == 0
+    return "Buzz"
+  elsif int % 3 == 0 # if the number int is divisible by 3
+      return "Fizz"
   else int % 4 == 0
     return nil
 
