@@ -12,6 +12,6 @@ def fizzbuzz(int)
 
   else int % !(5 == 0 && 3 == 0)
     return nil
-
+    end
   end
 end
