@@ -4,11 +4,11 @@
 
 def fizzbuzz(int)
   if int % 3 == 0 # if the number int is divisible by 3
-    puts "Fizz"
+    return "Fizz"
   elsif int % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   elsif int % 15 == 0
-    puts "FizzBuzz"
+    return "FizzBuzz"
   else int % !(15 == 0)
     return nil
 
