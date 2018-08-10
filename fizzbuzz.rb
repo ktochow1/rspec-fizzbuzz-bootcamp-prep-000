@@ -3,4 +3,5 @@
 def fizzbuzz
   if fizzbuzz == 3
     puts "Fizz"
+  else puts "nil"
 end
